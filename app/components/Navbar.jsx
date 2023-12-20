@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-slate-500">
+    <div className="navbar bg-slate-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -82,7 +82,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a>Doors</a>
+                  <a>Twitter</a>
                 </li>
               </ul>
             </details>

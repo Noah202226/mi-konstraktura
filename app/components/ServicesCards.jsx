@@ -23,7 +23,7 @@ const ServicesCards = () => {
         </div>
       </div>
 
-      <div className="card w-full md:w-96 bg-base-100 shadow-xl">
+      <div className="card w-full md:w-96 mb-2 md:mb-0 bg-base-100 shadow-xl">
         <figure>
           <img src="/s2.jpg" alt="Build" />
         </figure>
@@ -43,7 +43,7 @@ const ServicesCards = () => {
         </div>
       </div>
 
-      <div className="card w-full md:w-96 bg-base-100 shadow-xl">
+      <div className="card w-full md:w-96 mb-2 md:mb-0 bg-base-100 shadow-xl">
         <figure>
           <img src="/s3.png" alt="Build" />
         </figure>

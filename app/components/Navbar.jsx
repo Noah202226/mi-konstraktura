@@ -32,12 +32,31 @@ const Navbar = () => {
               <a>Products</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Cabinets</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Doors</a>
                 </li>
               </ul>
+            </li>
+
+            <li>
+              <details>
+                <summary>Socials</summary>
+                <ul className="p-2">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/mi.konstraktura"
+                      target="_blank"
+                    >
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a>Twitter</a>
+                  </li>
+                </ul>
+              </details>
             </li>
           </ul>
         </div>
@@ -89,7 +108,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden sm:inline-flex">
         <a className="btn">Inquire now</a>
       </div>
     </div>

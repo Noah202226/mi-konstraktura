@@ -4,7 +4,7 @@ import FullBreedCarousel from "./FullBreedCarousel";
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-hero bg-gray-400">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col-reverse lg:flex-row-reverse">
         <FullBreedCarousel />
         <div className="text-black">
           <h1 className="text-6xl font-bold">

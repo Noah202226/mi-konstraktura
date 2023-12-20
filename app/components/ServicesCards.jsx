@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesCards = () => {
   return (
-    <div className="md:flex items-start justify-around mt-[-20px]">
+    <div className="bg-transparent w-12 md:w-full flex-row md:flex items-center md:items-start justify-stretch md:justify-around md:mt-[-20px]">
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure>
           <img src="/s1.jpg" alt="Build" />

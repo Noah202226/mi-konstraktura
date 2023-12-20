@@ -2,10 +2,10 @@ import React from "react";
 
 const ServicesCards = () => {
   return (
-    <div className="bg-transparent w-12 md:w-full flex-row md:flex items-center md:items-start justify-stretch md:justify-around md:mt-[-20px]">
-      <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="bg-transparent m-4 md:m-0 w-46 md:w-full flex-row md:flex items-center md:items-start justify-stretch md:justify-around md:mt-[-20px]">
+      <div className="card w-full md:w-96 mb-2 md:mb-0 bg-base-100 shadow-xl">
         <figure>
-          <img src="/s1.jpg" alt="Build" />
+          <img src="/s1.jpg" alt="Build" className="services-card-image" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">
@@ -23,7 +23,7 @@ const ServicesCards = () => {
         </div>
       </div>
 
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-full md:w-96 bg-base-100 shadow-xl">
         <figure>
           <img src="/s2.jpg" alt="Build" />
         </figure>
@@ -43,7 +43,7 @@ const ServicesCards = () => {
         </div>
       </div>
 
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-full md:w-96 bg-base-100 shadow-xl">
         <figure>
           <img src="/s3.png" alt="Build" />
         </figure>

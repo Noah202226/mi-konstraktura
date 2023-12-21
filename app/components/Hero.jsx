@@ -1,13 +1,29 @@
 import React from "react";
 import FullBreedCarousel from "./FullBreedCarousel";
+import Carousel from "./Carousel";
+import Slider from "./Slider";
 
 const Hero = () => {
+  const images = [
+    "/door.jpg", // replace with the actual path to your images
+    "/gate 1.jpg",
+    "/kitchen cabinet.jpg",
+  ];
+  const containerWidth = 1200; // set your desired width
+  const containerHeight = 400; // set your desired height
   return (
     <div className="hero min-h-screen bg-hero bg-gray-400">
       <div className="hero-content flex-col-reverse lg:flex-row-reverse">
-        <FullBreedCarousel />
+        {/* <FullBreedCarousel /> */}
+        <Slider
+          images={images}
+          containerWidth={containerWidth}
+          containerHeight={containerHeight}
+          autoSlideInterval={5000}
+        />
+
         <div className="text-black shadow-white">
-          <h1 className="text-4xl md:text-6xl font-bold ">
+          <h1 className="text-4xl md:text-6xl font-bold stroke-yellow-400 fill-red-900">
             Your Premier Partner for Innovative Construction Solutions!
           </h1>
 
@@ -16,7 +32,9 @@ const Hero = () => {
             Remodeling
           </p>
 
-          <button className="btn btn-primary md:btn-lg">Get Started</button>
+          <button className="btn btn-primary md:btn-lg stroke-yellow-400 fill-red-900">
+            Get Started
+          </button>
         </div>
       </div>
     </div>

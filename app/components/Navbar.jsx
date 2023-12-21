@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-slate-50">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+    <div className="navbar bg-slate-50 shadow-2xl sticky">
+      <div className="navbar-start text-black">
+        <div className="dropdown text-black">
+          <div tabIndex={0} role="button" className="btn lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black "
           >
             <li>
               <a>Services</a>
@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
+        <a className="btn  text-xl">
           {" "}
           <img
             src="mi-konstraktura logo.jpg"
@@ -70,7 +70,7 @@ const Navbar = () => {
           Mi-Konstrucktura
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex text-black">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a>Services</a>

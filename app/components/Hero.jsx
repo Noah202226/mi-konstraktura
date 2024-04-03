@@ -15,24 +15,24 @@ const Hero = () => {
     <div className="hero min-h-screen bg-hero bg-gray-400">
       <div className="hero-content flex-col-reverse lg:flex-row-reverse">
         {/* <FullBreedCarousel /> */}
-        <Slider
+        {/* <Slider
           images={images}
           containerWidth={containerWidth}
           containerHeight={containerHeight}
           autoSlideInterval={5000}
-        />
+        /> */}
 
-        <div className="text-black shadow-white">
-          <h1 className="text-4xl md:text-6xl font-bold stroke-yellow-400 fill-red-900">
+        <div>
+          <h1 className="text-4xl text-black textShadow text-Shadow md:text-6xl font-medium">
             Your Premier Partner for Innovative Construction Solutions!
           </h1>
 
-          <p className="py-6 text-xl md:text-3xl font-medium ">
+          <p className="py-6 text-gray-800 text-xl md:text-3xl font-medium ">
             Commercial Construction, Residential Development, Renovation &
             Remodeling
           </p>
 
-          <button className="btn btn-primary md:btn-lg stroke-yellow-400 fill-red-900">
+          <button className="btn  md:btn-lg stroke-yellow-400 fill-red-900">
             Get Started
           </button>
         </div>
